@@ -1,0 +1,48 @@
+{
+  "type": "String",
+  "name": "String",
+	"description": "String",
+  "update": "boolean",
+  "destructible": "boolean",
+  "solid": "boolean",
+  "solidifes": "boolean",
+  "rotate": "boolean",
+  "breakable": "boolean",
+  "placeableOn": "boolean",
+  "health": "int",
+  "baseExplosiveness": "float",
+  "floating": "boolean",
+  "size": "INT 1-8",
+  "expanded": "boolean",
+  "timers": "int",
+  "fillsTile": "boolean",
+  "alwaysReplace": "boolean",
+  "configurable": "boolean",
+  "consumesTap": "boolean",
+  "color": "String hex?",
+  "targetable": "boolean",
+  "canOverdrive": "boolean",
+  "outlineColor": "Sring ex?",
+  "outlineIcon": "boolean",n
+  "hasShadow": "boolean",
+  "breakSound": "String <filename>",
+  "activeSound": "String <filename>",
+  "activeSoundVolume": "float",
+  "idleSound": "String <filename>",
+  "requirements": [
+		{ "item": "String <resource1>", "amount": "int" },
+    { "item": "String <resource2>", "amount": "int" },
+    { "item": "String <resource3>", "amount": "int" }
+	],
+
+	"consumes": {
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 5 }
+	],
+	"category": "<environment|ores|crafting|sandbox|defense|transport|liquids|power|production|storage|turrets|units|upgrades",
+  "BuildVisibility": "hidden|shown|sandboxOnly|campaignOnly",
+  "buildCostMultiplier": "float",
+  "instantTransfer": "boolean",
+  "alwaysUnlocked": "boolean"
+}

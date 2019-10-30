@@ -1,0 +1,50 @@
+{
+	"type": "ItemTurret",
+	"name": "Nuclear Turret",
+	"description": "They say to carry a big stick.",
+	"health": 2000,
+	"size": 4,
+	"update": true,
+	"shootSound": "nuke_shot",
+	"idleSound": "nuke_alarm_crush",
+	"shouldIdleSound": true,
+	"idleSoundVolume": 10.0,
+	"activeSound": "nuke_alarm_crush",
+	"shouldActiveSound": true,
+	"activeSoundVolume": 10.0,
+	"shootShake": 1.0,
+	"rotatespeed": 0.2,
+	"reload": 3000,
+	"shots": 1,
+	"range": 2000,
+	"ammoUseEffect": "shellEjectBig",
+	"inaccuracy": 1,
+	"rotatespeed": 0.1,
+	"consumes": {
+		"power": 45.0
+	},
+	"ammo": {
+		"blast-compound": {
+			"speed": 1.2,
+			"damage": 100,
+			"reloadMultiplier": 2,
+			"bulletWidth": 35,
+			"bulletHeight": 35,
+			"shootEffect": "shootBig",
+			"smokeEffect": "shootBigSmoke",
+			"hitEffect": "flakExplosion",
+			"splashDamage": 1000,
+			"splashDamageRadius": 200,
+			"lifetime": 5000,
+			"homingPower": 0.2,
+			"homingRange": 100,
+			"backColor": "ac7349",
+			"frontColor": "dcd16b"
+		}
+	},
+	"requirements": [
+		{ "item": "blast-compound", "amount": 350 },
+		{ "item": "surge-alloy", "amount": 350 }
+	],
+	"category": "turret"
+}
